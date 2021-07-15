@@ -129,15 +129,17 @@ footer .bottom-footer .desktop-link {
   }
 
   .header-col-4 {
+    margin-top: 0;
+    margin-right: 1rem;
     max-width: 60%;
     text-align: start;
-    align-self: center;
+    align-self: flex-start;
   }
 
   .header-col-3 {
     order: 1;
     align-self: center;
-    margin-left: auto;
+    margin: 0 auto;
   }
 
   header ul {
