@@ -226,10 +226,12 @@ footer .bottom-footer .desktop-link {
   header .header-col-3 {
     margin-right: 0px;
     margin-left: auto;
+    align-self: flex-start;
   }
 
   header .header-col-4 {
     padding: 5.5rem;
+    padding: 15%;
     padding-left: 0;
     padding-top: 0;
   }
