@@ -18,8 +18,8 @@
   </head>
   <body>
     <header id="home">
-      <h1 class="student-name">Student Name</h1>
-      <nav>
+      <h1 class="student-name header-col header-col-1">Student Name</h1>
+      <nav class="header-col header-col-2">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
@@ -29,8 +29,9 @@
       <img
         src="./images/responsive-layout-profile.png"
         alt="Image of the student"
+        class="header-col header-col-3"
       />
-      <p>
+      <p class="header-col header-col-4">
         Hi! I'm a front-end developer who loves responsive design and css. I
         recently finished a degree in front-end web development at Treehouse and
         am excited to put all my skills to use!
@@ -38,22 +39,24 @@
     </header>
     <main>
       <div class="portfolio" id="portfolio">
-        <h3>Portfolio</h3>
-        <img src="./images/portfolio-1.png" alt="Marketing website image" />
-        <h2>Marketing Page</h2>
-        <p>
-          This project shows the front page of a marketing website meant for a
-          specific business I'm interested in.
-        </p>
-        <section>
+        <h3 class="col item-1">Portfolio</h3>
+        <section class="col item-2">
+          <img src="./images/portfolio-1.png" alt="Marketing website image" />
+          <h2>Marketing Page</h2>
+          <p>
+            This project shows the front page of a marketing website meant for a
+            specific business I'm interested in.
+          </p>
+        </section>
+        <section class="col item-3">
           <img src="./images/portfolio-2.png" alt="Search website image" />
           <h2>Search Page</h2>
           <p>
-            this project searches through a specific database to find
+            This project searches through a specific database to find
             information that hte user is trying to look up.
           </p>
         </section>
-        <section>
+        <section class="col item-4">
           <img src="./images/portfolio-3.png" alt="Travel website image" />
           <h2>Travel App</h2>
           <p>
@@ -61,7 +64,7 @@
             methods and tells you the best one.
           </p>
         </section>
-        <section>
+        <section class="col item-5">
           <img
             src="./images/portfolio-4.png"
             alt="Map of favorite spots website image"
@@ -72,7 +75,7 @@
             in the city for a do-it-yourself waling tour.
           </p>
         </section>
-        <section>
+        <section class="col item-6">
           <img
             src="./images/portfolio-5.png"
             alt="Photo gallery website image"
@@ -83,7 +86,7 @@
             allows them to easily navigate through photos.
           </p>
         </section>
-        <section>
+        <section class="col item-7">
           <img src="./images/portfolio-6.png" alt="Calculator website image" />
           <h2>Calculator</h2>
           <p>
@@ -104,7 +107,10 @@
       <hr />
       <div class="bottom-footer">
         <p>Student name</p>
-        <a href="#home">Back to top</a>
+        <a href="#home" id="mobile-link">Back to top</a>
+        <a href="#home" class="desktop-link">Home</a>
+        <a href="#portfolio" class="desktop-link">Portfolio</a>
+        <a href="#contact" class="desktop-link">Contact</a>
       </div>
     </footer>
   </body>
